@@ -23,6 +23,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        System.out.println("-----第一个界面调用了-----");
+
+
         lv = (ListView) findViewById(R.id.lv);
 
         //1.获取数据源
